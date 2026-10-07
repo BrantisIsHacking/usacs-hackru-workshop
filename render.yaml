@@ -12,7 +12,7 @@ services:
           name: time-until-db
           property: connectionString
       - key: CORS_ORIGIN
-        value: https://your-vercel-app.vercel.app
+        value: https://usacs-hackru-workshop-black.vercel.app/
       - key: DATABASE_SSL
         value: "true"
       - key: NODE_ENV
@@ -22,5 +22,6 @@ databases:
   - name: time-until-db
     plan: free
     databaseName: countdowns
-    user: countdowns
+    user: countdowns\
+    
 
